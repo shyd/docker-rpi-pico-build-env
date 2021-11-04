@@ -1,9 +1,14 @@
 # docker-rpi-pico-build-env
-Build environment for Raspberry Pi Pico with pico-sdk in it. See https://github.com/raspberrypi/pico-sdk for more info.
+Build environment for Raspberry Pi Pico with pico-sdk, pico-extras and pimoroni-pico in it. See https://github.com/raspberrypi/pico-sdk and https://github.com/pimoroni/pimoroni-pico for more info.
 
 ## Run to Build
 
 Simply run `docker run --rm -it -v $(pwd):/code shyd/rpi-pico-build-env` from the folder with the `CMakeLists.txt` in it.
+
+## Pimoroni pico-boilerplate
+
+It is fully compatible with [pimoroni/pico-boilerplate](https://github.com/pimoroni/pico-boilerplate).
+
 
 ## Quick-start your own project
 
