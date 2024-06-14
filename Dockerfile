@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ubuntu:22.04
 
 ARG BRANCH_OR_TAG=master
 ENV DEBIAN_FRONTEND=noninteractive
